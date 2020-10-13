@@ -11,6 +11,14 @@ bool valid(int n)  {
 		return false;
 	return true;
 }
+
+void negsqr(int n)  {
+	n=-1*n;
+	printf("Sqrt of %d is %fi\n",n,sqrt(n));
+	printf("End of program. Exiting\n");
+	return;
+}
+
 /* Main Function */
 int main(int argc, char* argv[]) {
 	
@@ -21,12 +29,13 @@ int main(int argc, char* argv[]) {
 
 	int input = atoi(argv[1]);
 	if(!valid(input)) {
-		printf("Negative Number\n");
-		printf("End of program. Exiting\n");
+		// printf("Negative Number\n");
+		// printf("End of program. Exiting\n");
+		negsqr(input);
 		return(0);
 	}
 	printf("Sqrt of %d is %f\n",input,sqrt(input));
-	printf("End of program. Exiting!!\n");
+	printf("End of program. Exiting Byee!!\n");
 	return(0);
 
 } // end main
