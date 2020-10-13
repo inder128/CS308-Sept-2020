@@ -1,10 +1,12 @@
 /* This program computes the square root of a
 positive number. */
 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
+/* Main Function */
 int main(int argc, char* argv[]) {
 	
 	if (argc != 2) {
