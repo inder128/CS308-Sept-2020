@@ -1,1 +1,2 @@
-# Ignore files with extension `.out`*.out
+# Ignore files with extension `.out`
+*.out
