@@ -1,2 +1,1 @@
-# Ignore files with extension `.class` & `.sm`
-*.out
+# Ignore files with extension `.out`*.out
